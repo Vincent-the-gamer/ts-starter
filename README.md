@@ -9,7 +9,7 @@
 _description_
 
 > [!NOTE]
-> Note: Replace pkg-name, \_description\_ and Vincent-the-gamer globally to use this template.
+> Replace pkg-name, \_description\_ and Vincent-the-gamer globally to use this template.
 
 ## Scripts
 
