@@ -1,0 +1,54 @@
+{
+  "name": "pkg-name",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "_description_",
+  "author": "Vincent-the-gamer",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "esno src/index.ts",
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Vincent-the-gamer/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincent-the-gamer/pkg-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vincent-the-gamer/pkg-name/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com",
+    "access": "public"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esno": "^4.7.0",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
+  }
+}
