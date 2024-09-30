@@ -28,7 +28,8 @@
   "scripts": {
     "dev": "esno src/index.ts",
     "build": "tsup",
-    "test": "vitest"
+    "test": "vitest",
+    "dep": "taze major"
   },
   "license": "MIT",
   "homepage": "https://github.com/Vincent-the-gamer/pkg-name#readme",
@@ -45,10 +46,11 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "esno": "^4.7.0",
-    "tsup": "^8.2.3",
-    "typescript": "^5.5.4",
-    "vitest": "^2.0.4"
+    "@types/node": "^22.7.4",
+    "esno": "^4.8.0",
+    "taze": "^0.17.2",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
   }
 }
