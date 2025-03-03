@@ -18,11 +18,11 @@ _description_
 2. Clone to local
 ```shell
 # npm
-npx degit https://github.com/Vincent-the-gamer/ts-starter.git
+npx degit https://github.com/Vincent-the-gamer/ts-starter.git your-project-name
 
 # pnpm
 # NOTE: `pnpx` is the alias of `pnpm dlx`.
-pnpx degit https://github.com/Vincent-the-gamer/ts-starter.git
+pnpx degit https://github.com/Vincent-the-gamer/ts-starter.git your-project-name
 ```
 
 ## Scripts
