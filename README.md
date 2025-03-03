@@ -11,6 +11,20 @@ _description_
 > [!NOTE]
 > Replace pkg-name, \_description\_ and Vincent-the-gamer globally to use this template.
 
+## Use this template
+
+1. Create a repo from GitHub directly.
+
+2. Clone to local
+```shell
+# npm
+npx degit https://github.com/Vincent-the-gamer/ts-starter.git
+
+# pnpm
+# NOTE: `pnpx` is the alias of `pnpm dlx`.
+pnpx degit https://github.com/Vincent-the-gamer/ts-starter.git
+```
+
 ## Scripts
 
 ```shell
