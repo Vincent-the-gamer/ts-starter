@@ -46,11 +46,11 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@types/node": "^22.15.21",
+    "@types/node": "^22.15.33",
     "taze": "^19.1.0",
-    "tsdown": "^0.11.12",
-    "tsx": "^4.19.4",
+    "tsdown": "^0.12.9",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.4"
+    "vitest": "^3.2.4"
   }
 }
