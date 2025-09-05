@@ -29,7 +29,7 @@
     "dev": "tsx src/index.ts",
     "build": "tsdown",
     "test": "vitest",
-    "dep": "taze major"
+    "dep": "taze major -I"
   },
   "license": "MIT",
   "homepage": "https://github.com/Vincent-the-gamer/pkg-name#readme",
@@ -46,11 +46,11 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@types/node": "^22.15.33",
-    "taze": "^19.1.0",
-    "tsdown": "^0.12.9",
-    "tsx": "^4.20.3",
-    "typescript": "^5.8.3",
+    "@types/node": "^22.18.1",
+    "taze": "^19.5.0",
+    "tsdown": "^0.14.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   }
 }
